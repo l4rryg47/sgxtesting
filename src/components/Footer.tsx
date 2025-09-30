@@ -12,19 +12,24 @@ const navigation = {
   ],
   contact: [
     {
-      icon: EnvelopeIcon,
-      text: 'info@petrotest.com',
-      href: 'mailto:info@petrotest.com',
-    },
-    {
-      icon: PhoneIcon,
-      text: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      icon: MapPinIcon,
+      text: 'OUR OFFICES ARE IN ALL THE MAJOR PORTS',
+      href: '#',
     },
     {
       icon: MapPinIcon,
-      text: '123 Energy Way, Houston, TX 77001',
-      href: 'https://maps.google.com',
+      text: 'ROTTERDAM-HOUSTON-JURONG-QINGDAO-DONGJIAKOU-ANTWERP',
+      href: '#',
+    },
+    {
+      icon: EnvelopeIcon,
+      text: 'info@sgxtesting.com',
+      href: 'mailto:info@sgxtesting.com',
+    },
+    {
+      icon: EnvelopeIcon,
+      text: 'verification@sgxtesting.com',
+      href: 'mailto:verification@sgxtesting.com',
     },
   ],
 };
@@ -35,9 +40,16 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold">PetroTest</h3>
+            <div className="flex items-center space-x-3">
+              <img
+                src="/images/sgx-logo.png"
+                alt="SGX Testing and Inspection Logo"
+                className="h-12 w-auto"
+              />
+              <h3 className="text-2xl font-bold">SGX Testing Ltd</h3>
+            </div>
             <p className="mt-4 text-gray-300">
-              Providing comprehensive crude oil testing and analysis services with precision and reliability for over 20 years.
+              Providing comprehensive testing and analysis services with precision and reliability for over 20 years.
             </p>
             <div className="mt-6 space-y-2">
               {navigation.contact.map((item, index) => (

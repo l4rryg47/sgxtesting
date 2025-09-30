@@ -1,6 +1,6 @@
-# PetroTest - Crude Oil Testing Company Website
+# SGX Testing Ltd - Comprehensive Testing Services
 
-A modern, responsive website for PetroTest, a leading provider of crude oil testing and analysis services. Built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive website for SGX Testing Ltd, a leading provider of comprehensive testing and analysis services. Built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 

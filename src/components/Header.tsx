@@ -19,8 +19,15 @@ export default function Header() {
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="flex w-full items-center justify-between border-b border-gray-200 py-6 lg:border-none">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-primary">
-              PetroTest
+            <Link href="/" className="flex items-center space-x-2">
+              <img
+                src="/images/sgx-logo.png"
+                alt="SGX Testing and Inspection Logo"
+                className="h-14 w-auto"
+              />
+              <span className="text-2xl font-bold text-primary">
+                SGX Testing and Inspection
+              </span>
             </Link>
           </div>
           <div className="ml-10 hidden space-x-8 lg:block">
@@ -37,7 +44,7 @@ export default function Header() {
           <div className="ml-10 hidden space-x-4 lg:block">
             <Link
               href="/contact"
-              className="btn"
+              className="inline-flex items-center justify-center rounded-md border border-transparent bg-orange-600 px-6 py-2 text-base font-medium text-white shadow-sm hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors"
             >
               Get a Quote
             </Link>
@@ -85,7 +92,7 @@ export default function Header() {
                 <div className="py-6">
                   <Link
                     href="/contact"
-                    className="btn w-full text-center"
+                    className="inline-flex items-center justify-center rounded-md border border-transparent bg-red-600 px-6 py-2 text-base font-medium text-white shadow-sm hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Get a Quote

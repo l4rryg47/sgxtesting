@@ -123,24 +123,69 @@ export default function ServicesPage() {
             Our Services
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-blue-100">
-            Comprehensive testing and analysis services tailored to meet the needs of the oil and gas industry.
+            Comprehensive testing solutions for the petroleum industry
           </p>
         </div>
       </div>
 
+      {/* Services Introduction */}
+      <div className="bg-white py-16 sm:py-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <div className="prose prose-lg text-gray-600 max-w-none">
+              <p className="mb-6">
+                Petroleum Testing Capabilities focus on Diesel, Heating Oil, Gasoline, and Jet Fuel. We offer a wide variety of ASTM, EPA, IP, and ISO testing services to businesses in the energy industry.
+              </p>
+              <p className="mb-6">
+                We guarantee accurate results and ensure comprehensive testing following industry standards. We offer fast and reliable results, up-to-minute updates and operate around the clock.
+                We collect samples and also offer mail-in submitted samples. Our petroleum testing laboratory focuses on the following ASTM standards.
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-2">Diesel</h3>
+                  <p className="text-gray-600">ASTM D975</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-2">Fuel Oil</h3>
+                  <p className="text-gray-600">ASTM D396</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-2">Gasoline</h3>
+                  <p className="text-gray-600">ASTM D4814</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-2">Jet Fuel</h3>
+                  <p className="text-gray-600">ASTM D1665</p>
+                </div>
+              </div>
+
+              <p className="mb-4">
+                Our team of certified inspectors provide independent, accurate custody transfers and measurements focusing on minimizing the potential risk to our client's product.
+              </p>
+              <p className="mb-4">
+                With an extensive staff of highly trained and motivated inspectors and offices worldwide, SGX TESTING AND INSPECTION LLC can provide inspection services globally with the same quality and reliability our customers have come to expect from us.
+              </p>
+              <p className="mb-4">
+                We operate at major hubs worldwide, including Singapore, New York, New Orleans, Antwerp, Philadelphia, Rotterdam, Los Angeles, Houston, and other convenient locations. Whether you are a buyer, supplier, owner, or end-user, our inspection services can help ensure your operations run smoothly and efficiently.
+              </p>
+              <p className="mb-8">
+                As an independent third party, we will verify the quantity of your product on a ship or in a tank at load or discharge port. Our inspectors have years of experience and go through independent evaluations of their surveying knowledge every year.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Services Grid */}
-      <div className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
-            <h2 className="text-base text-primary font-semibold tracking-wide uppercase">Testing Services</h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Comprehensive Crude Oil Analysis
-            </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              State-of-the-art laboratory testing to ensure quality, compliance, and optimal processing of crude oil.
+      <div className="bg-white pb-16 sm:pb-24">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl text-center mb-16">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Testing Services</h2>
+            <p className="mt-4 text-lg leading-8 text-gray-600">
+              Comprehensive testing solutions for the petroleum industry
             </p>
           </div>
-
           <div className="mt-16">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
               {services.map((service) => (
@@ -193,11 +238,11 @@ export default function ServicesPage() {
           <div className="bg-primary rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
               <div className="lg:self-center">
-                <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
+                <h2 className="text-3xl font-extrabold text-black sm:text-4xl">
                   <span className="block">Need a custom testing solution?</span>
                   <span className="block">We can help.</span>
                 </h2>
-                <p className="mt-4 text-lg leading-6 text-blue-100">
+                <p className="mt-4 text-lg leading-6 text-blue-900">
                   Our team of experts can develop customized testing protocols to meet your specific requirements.
                 </p>
                 <a
@@ -233,21 +278,21 @@ export default function ServicesPage() {
           </div>
 
           <div className="mt-10">
-            <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+            <div className="grid grid-cols-2 gap-2 md:grid-cols-6 lg:grid-cols-5">
               <div className="col-span-1 flex justify-center">
-                <img className="h-12" src="/images/iso-17025.png" alt="ISO 17025" />
+                <img className="h-16" src="/images/iso-17025.png" alt="ISO 17025" />
               </div>
               <div className="col-span-1 flex justify-center">
-                <img className="h-12" src="/images/astm.png" alt="ASTM" />
+                <img className="h-16" src="/images/astm.png" alt="ASTM" />
               </div>
               <div className="col-span-1 flex justify-center">
-                <img className="h-12" src="/images/api.png" alt="API" />
+                <img className="h-16" src="/images/api.png" alt="API" />
               </div>
               <div className="col-span-1 flex justify-center">
-                <img className="h-12" src="/images/nadcap.png" alt="NADCAP" />
+                <img className="h-16" src="/images/nadcap.png" alt="NADCAP" />
               </div>
               <div className="col-span-1 flex justify-center">
-                <img className="h-12" src="/images/a2la.png" alt="A2LA" />
+                <img className="h-16" src="/images/a2la.png" alt="A2LA" />
               </div>
             </div>
           </div>

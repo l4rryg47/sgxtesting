@@ -42,10 +42,10 @@ export default function AboutPage() {
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            About PetroTest
+            About SGX Testing Ltd
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-blue-100">
-            Leading the way in crude oil testing and analysis with precision, reliability, and innovation.
+            Delivering comprehensive testing and analysis services with precision, reliability, and innovation.
           </p>
         </div>
       </div>
@@ -74,10 +74,10 @@ export default function AboutPage() {
               </h2>
               <div className="mt-6 text-gray-500 space-y-6">
                 <p className="text-lg">
-                  Founded in 2003, PetroTest has grown from a small regional laboratory to a globally recognized leader in crude oil testing and analysis. Our journey began with a simple mission: to provide the most accurate and reliable testing services to the oil and gas industry.
+                  Founded in 2003, SGX Testing Ltd has grown from a small regional laboratory to a globally recognized leader in testing and analysis services. Our journey began with a simple mission: to provide the most accurate and reliable testing services to our clients.
                 </p>
                 <p className="text-lg">
-                  Over the years, we've invested heavily in cutting-edge technology and assembled a team of world-class scientists and engineers. Today, we serve clients across six continents, helping them make informed decisions about their crude oil assets.
+                  Over the years, we've invested heavily in cutting-edge technology and assembled a team of world-class scientists and engineers. Today, we serve clients across six continents, helping them make informed decisions with our comprehensive testing solutions.
                 </p>
                 <p className="text-lg">
                   Our commitment to excellence and customer satisfaction has earned us numerous industry awards and accreditations, but our greatest achievement is the trust our clients place in us every day.
@@ -128,7 +128,7 @@ export default function AboutPage() {
               What We Stand For
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Our core values guide everything we do at PetroTest.
+              Our core values guide everything we do at SGX Testing Ltd.
             </p>
           </div>
 

@@ -5,30 +5,29 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: <MapPinIcon className="h-6 w-6 text-gray-400" />,
-      title: 'Visit Us',
-      description: '123 Energy Way, Houston, TX 77001',
-      link: 'https://maps.google.com',
-      linkText: 'View on map',
-    },
-    {
-      icon: <PhoneIcon className="h-6 w-6 text-gray-400" />,
-      title: 'Call Us',
-      description: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
-      linkText: 'Call now',
+      title: 'Global Offices',
+      description: 'ROTTERDAM - HOUSTON - JURONG',
+      additional: 'QINGDAO - DONGJIAKOU - ANTWERP',
     },
     {
       icon: <EnvelopeIcon className="h-6 w-6 text-gray-400" />,
       title: 'Email Us',
-      description: 'info@petrotest.com',
-      link: 'mailto:info@petrotest.com',
+      description: 'info@sgxtesting.com',
+      link: 'mailto:info@sgxtesting.com',
+      linkText: 'Send email',
+    },
+    {
+      icon: <EnvelopeIcon className="h-6 w-6 text-gray-400" />,
+      title: 'Verification',
+      description: 'verification@sgxtesting.com',
+      link: 'mailto:verification@sgxtesting.com',
       linkText: 'Send email',
     },
     {
       icon: <ClockIcon className="h-6 w-6 text-gray-400" />,
       title: 'Business Hours',
-      description: 'Monday - Friday: 8:00 AM - 6:00 PM',
-      additional: 'Weekends: Closed',
+      description: '24/7 Support',
+      additional: 'Global operations',
     },
   ];
 
@@ -107,36 +106,48 @@ export default function ContactPage() {
               <p className="mt-3 text-lg text-gray-500">
                 Fill out the form below and our team will get back to you as soon as possible.
               </p>
-              <div className="mt-8">
+              <div className="mt-6">
                 <ContactForm />
               </div>
             </div>
 
             {/* Map */}
-            <div className="mt-12 lg:mt-0 lg:col-span-1">
+            <div className="mt-12 lg:mt-0">
               <div className="bg-white py-8 px-6 shadow-lg rounded-lg overflow-hidden">
                 <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
-                  Our Location
+                  Our Global Presence
                 </h2>
                 <p className="mt-2 text-lg text-gray-500">
-                  Visit our state-of-the-art laboratory in Houston, TX.
+                  Strategically located in major ports worldwide for your convenience.
                 </p>
-                <div className="mt-6 aspect-w-16 aspect-h-9 w-full overflow-hidden rounded-lg">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.2918994207067!2d-95.3692!3d29.7604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0c1c5f1b3b5%3A0x1c2a7b1b1b1b1b1b1!2sHouston%2C%20TX%2C%20USA!5e0!3m2!1sen!2suk!4v1620000000000!5m2!1sen!2suk"
-                    width="100%"
-                    height="450"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    className="rounded-lg"
-                  ></iframe>
+                <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h3 className="text-lg font-medium text-gray-900">Rotterdam</h3>
+                    <p className="mt-1 text-sm text-gray-600">Netherlands</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h3 className="text-lg font-medium text-gray-900">Houston</h3>
+                    <p className="mt-1 text-sm text-gray-600">USA</p>
+                  </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h3 className="text-lg font-medium text-gray-900">Qingdao</h3>
+                    <p className="mt-1 text-sm text-gray-600">China</p>
+                  </div>
                 </div>
-                <div className="mt-6">
-                  <h3 className="text-lg font-medium text-gray-900">Parking Information</h3>
+                <div className="mt-8">
+                  <h3 className="text-lg font-medium text-gray-900">Additional Locations</h3>
                   <p className="mt-2 text-base text-gray-600">
-                    Free visitor parking is available in front of our building. Additional parking is available in the adjacent garage.
+                    We also have offices in Jurong, Dongjiakou, and Antwerp. Our global network ensures we can serve your needs wherever you're located.
                   </p>
+                  <div className="mt-4">
+                    <a 
+                      href="mailto:info@sgxtesting.com" 
+                      className="text-primary-600 hover:text-primary-800 font-medium"
+                    >
+                      Contact us for specific location details
+                      <span aria-hidden="true"> &rarr;</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -154,18 +165,18 @@ export default function ContactPage() {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="tel:+15551234567"
+                href="mailto:info@sgxtesting.com"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-50"
               >
-                Call Now
+                Email Us
               </a>
             </div>
             <div className="ml-3 inline-flex">
               <a
-                href="mailto:info@petrotest.com"
+                href="mailto:verification@sgxtesting.com"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700"
               >
-                Email Us
+                Verification
               </a>
             </div>
           </div>
