@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'PetroTest - Professional Crude Oil Testing Services',
+  title: 'SGX Testing and Inspection - Professional Crude Oil Testing Services',
   description: 'Leading provider of comprehensive crude oil testing and analysis services',
 };
 
